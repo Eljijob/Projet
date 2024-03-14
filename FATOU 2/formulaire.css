@@ -1,0 +1,96 @@
+body{
+    background-image:url(./WhatsApp\ Image\ 2024-02-22\ à\ 21.51.41_ea2e7641.jpg);
+ 
+}
+#principal{
+    padding: 0px;
+    
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+#menu{
+    background-color: #000;
+    width: 1000px;
+    height: 40px;
+}
+#contenu{
+    
+    width: 1000px;
+    height: 450px;
+    padding-top: 60px;
+}
+
+li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    margin-left: 10px;
+}
+li:hover{
+    background-color: seashell;
+    color: black;
+}
+
+label{
+    display: inline-block;
+    margin-left: 10px;
+}
+form{
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    
+    border-radius: 20px  20px 10px 10px;
+    border-color: #000;
+}
+h2{
+    text-align: center;
+    background-color: #000;
+    color: white;
+    margin-top: 0px;
+    border-radius: 20px 20px 0px 0px;
+    border-width: 1px;
+}
+label{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}   
+input[type="text"]{
+    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+}
+input[type="chekbox"]{
+    display: inline-block;
+    border-top: 20px;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    background-color: #000;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+input:invalid{
+    border-color:#000;
+    border-width: 2px;
+}
+input,textarea,select{
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+}
+label{
+    color: white;
+}
